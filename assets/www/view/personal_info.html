@@ -1,0 +1,10 @@
+<div>
+  <p>Antes de continuar temos que confirmar sua identidade</p>
+  <form action="#/user/authorize" method="post">
+    <p><label for="client_name">Nome:</label><input type="text" name="client_name" /></p>
+    <p><label for="client_phone">Phone:</label><input type="text" name="client_phone" /></p>
+    <p><input type="submit" value="Obter PIN" />
+        <input type="button" value="Já tenho PIN" onclick="document.location.hash='#/user/confirm_pin'"/></p>
+  </form>
+  
+</div>
