@@ -10,6 +10,6 @@ public class App extends DroidGap {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        super.loadUrl("http://192.168.0.190:8080/client/");
+        super.loadUrl("file:///android_asset/www/index.html");
     }
 }
