@@ -2,7 +2,6 @@ package br.com.taxisimples;
 
 import com.phonegap.DroidGap;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 public class App extends DroidGap {
