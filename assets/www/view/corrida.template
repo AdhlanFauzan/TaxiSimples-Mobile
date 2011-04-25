@@ -1,0 +1,11 @@
+  <div id="corrida">
+    <div>ID: <%= corrida.id %></div>
+    <div>Preço: R$<%= corrida.price %></div>
+    <div>
+    	<div>Nome: <%= corrida.client.name %></div>
+    <div>
+    <div>
+    	<input type="button" value="ignorar" onclick="ignorarUltimaCorrida()">
+    	<input type="button" value="Aceitar" onclick="aceitarUltimaCorrida()">
+    </div>
+  </div>
